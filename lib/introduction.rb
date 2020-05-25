@@ -4,15 +4,15 @@
 # in order to complete the rest of this course and be ready for the next course!
 
 
-def method_one(name)
+def introduction(name)
   puts "Hi, my name is "+name+"."
 end
 
-def method_two(name, language)
+def introduction_with_language(name, language)
   puts "Hi, my name is "+name+" and I am learning to program in "+language+"."
 end
 
-def method_three(name, language="Ruby")
+def introduction_with_language_optional(name, language="Ruby")
   puts "Hi, my name is "+name+" and I am learning to program in "+language+"."
 end   
 
